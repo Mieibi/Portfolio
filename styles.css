@@ -1,0 +1,133 @@
+/******************************* GENERAL TAGS *******************************/
+
+a{
+    color: #11999E;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin-top: 50px;
+    line-height: 2;
+    margin-bottom: 0px;
+}
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 4%;
+    border-width: 7px;
+    border-color: #F3F2F1; 
+}
+
+/******************************* Landing Page **************************************/
+
+.top-container{
+    background:linear-gradient(to bottom,#EAF6F6,#FFFFFF);
+    position: relative;
+    padding-top: 100px;
+}
+.job{
+    font-weight: normal;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 470px;
+    left: 260px;
+}
+/******************************* Middle Section *******************************/
+.middle-container{
+    margin-top: 20px;
+    background: #FFFFFF;
+}
+
+/******************************* Profile Section *******************************/
+
+.profile-img{
+    width: 10%;
+}
+.profile-text{
+    color: #40514E;
+}
+
+/******************************* Skill Section *******************************/
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-text{
+    line-height: 2;
+}
+.webdev-img{
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.sysadmin-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/******************************* Contact Section *******************************/
+
+.btn{
+   background:#66BFBF;
+   display: inline-block;
+   padding: 10px 50px;
+   border-radius: 20px;
+   color: white;
+   font-weight: bold;
+   margin: 60px 0 100px 0;
+   border: 2px solid #11999E;
+   font-size: 24px;
+   box-shadow: 0.5px 0.5px 3.5px 0px #000000;
+   text-shadow: 1px 1px 0 #000000;
+   background: linear-gradient(to bottom, #66BFBF,#11999E);
+}
+.btn:active{
+    transform: translateY(3px); 
+}
+.btn:hover{
+    background: linear-gradient(to top,#66BFBF,#11999E); 
+}
+
+/******************************* Bottom Section *******************************/
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 60px;
+    line-height: 2;
+}
+.footer-link{
+    margin-left: 20px;
+    color: #11999E;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyright{
+    color:#EAF6F6;
+    margin-top: 45px;
+    font-size: 12px;
+}
