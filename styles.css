@@ -8,6 +8,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 }
 h1{
     color: #66BFBF;
@@ -32,6 +33,7 @@ hr{
     width: 4%;
     border-width: 7px;
     border-color: #F3F2F1; 
+    margin: 100px auto;
 }
 
 /******************************* Landing Page **************************************/
@@ -56,7 +58,7 @@ hr{
 }
 /******************************* Middle Section *******************************/
 .middle-container{
-    margin-top: 20px;
+    margin-top: 100px;
     background: #FFFFFF;
 }
 
@@ -66,9 +68,10 @@ hr{
     width: 10%;
 }
 .profile-text{
-    color: #40514E;
+    line-height: 2;
+    width: 40%;
+    margin: auto;
 }
-
 /******************************* Skill Section *******************************/
 
 .skill-row{
@@ -92,7 +95,10 @@ hr{
 }
 
 /******************************* Contact Section *******************************/
-
+.contact-text{
+    width: 16%;
+    margin: auto;
+}
 .btn{
    background:#66BFBF;
    display: inline-block;
@@ -126,8 +132,11 @@ hr{
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
 }
+.footer-link:hover{
+    color: #FFFFFF;
+}
 .copyright{
     color:#EAF6F6;
     margin-top: 45px;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
