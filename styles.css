@@ -83,7 +83,7 @@ hr{
     line-height: 2;
 }
 .webdev-img{
-    border-radius: 50%;
+    border-radius: 100%;
     width: 25%;
     float: left;
     margin-right: 30px;
